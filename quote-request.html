@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Request - Professional Catering Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Quote Request Section -->
+    <section id="quote-request" class="section">
+        <h2>Request a Customized Quote</h2>
+        <p>Fill out the form below to receive a quote tailored to your event needs.</p>
+        <form id="quote-form">
+            <label for="event-type">Type of Event:</label>
+            <select id="event-type" name="event-type" required>
+                <option value="wedding">Wedding</option>
+                <option value="corporate">Corporate Event</option>
+                <option value="private-party">Private Party</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="num-guests">Number of Guests:</label>
+            <input type="number" id="num-guests" name="num-guests" required>
+
+            <label for="event-location">Event Location:</label>
+            <input type="text" id="event-location" name="event-location" required>
+
+            <label for="additional-services">Additional Services (optional):</label>
+            <textarea id="additional-services" name="additional-services" placeholder="Enter any additional requests or services here (e.g. decoration, special meals, etc.)"></textarea>
+
+            <button type="submit" class="btn">Request Quote</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Professional Catering Services. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
